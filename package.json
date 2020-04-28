@@ -1,17 +1,25 @@
 {
   "name": "landing-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000L\u0000a\u0000n\u0000d\u0000i\u0000n\u0000g\u0000P\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendaPSO/LandingPage.git"
+  },
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brendaPSO/LandingPage/issues"
+  },
+  "homepage": "https://github.com/brendaPSO/LandingPage#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.0",
-    "popper.js": "^1.16.1"
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }
