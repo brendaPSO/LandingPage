@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title Page</title>
+    <title>Curso Full Stack</title>
 
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
@@ -23,56 +23,200 @@
 
 <body>
 
+    <!-- Nav -->
     <nav>
-        <!-- <a href="index.html">
-            <div class="logo">Curso Full Stack</div>
-        </a> -->
 
-        <div class="toggle">
-            <i class="fa fa-bars menu" aria-hidden="true"></i>
+        <div class="cont">
+            <span>
+
+            <!-- Logo -->
+            <a href="index.html">
+                <img class="logo" src="img/logo.png">
+            </a>
+
+            <!-- Botão Toggle -->
+            <div class="toggle">
+                <i class="fa fa-bars fa-2x menu" aria-hidden="true"></i>
+            </div>
+
+            </span>
+
+
+            <!-- Navbar -->
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="nome" data-text="Home">Home</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="nome" data-text="Cursos">Cursos</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-users fa-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="nome" data-text="Professores">Professores</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="nome" data-text="Contatos">Contatos</div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /Navbar -->
+
         </div>
-        <ul>
-            <li>
-                <a href="#">
-                    <div class="icon">
-                        <i class="fa fa-home" aria-hidden="true"></i>
-                    </div>
-                    <div class="nome" data-text="Home">Home</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="icon">
-                        <i class="fa fa-code" aria-hidden="true"></i>
-                    </div>
-                    <div class="nome" data-text="Cursos">Cursos</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="icon">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                    </div>
-                    <div class="nome" data-text="Professores">Professores</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="icon">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </div>
-                    <div class="nome" data-text="Contatos">Contatos</div>
-                </a>
-            </li>
-        </ul>
     </nav>
+    <!-- /Nav -->
 
-    <section>
+    <section id="sessao-inicial">
+        <div class="cont">
+            <div class="grid-sessao-inicial">
 
+                <div class="cont">
+                    <h4>Seja um</h4>
+                    <h2>FULL STACK</h2>
+                    <p>Vá para outro nível no back-end e front-end, amplie seu conhecimento com nossas video-aulas e professores capacitados.</p>
+                </div>
+
+                <img class="post" src="img/img_1.jpg">
+
+            </div>
+        </div>
     </section>
 
+    <section id="sessao-planos">
+        <div class="cont">
+            <div class="grid-sessao-planos">
+
+                <div class="box">
+                    <div>
+                        <i class="fab fa-html5 fa-5x"></i>
+                        <h2>Plano Front-end</h2>
+                        <p>HTML 5</p>
+                        <p>CSS 3</p>
+                        <p>JavaScript</p>
+                        <p>2 Projetos</p>
+                        <p>+ 150 aulas</p>
+                        <button type="button" class="efeito-button">Quero Esse</button>
+                    </div>
+                </div>
+
+                <div class="box-primeiro">
+                    <div class="centralizar">
+                        <div style="margin-bottom: 30px;">
+                            <i class="fab fa-html5 fa-6x"></i>
+                            <i class="fas fa-plus fa-3x"></i>
+                            <i class="fab fa-node-js fa-6x"></i>
+                        </div>
+                        <h2>Plano Full Stack</h2>
+                        <p>Front-end</p>
+                        <p>Back-end</p>
+                        <p>5 Projetos</p>
+                        <p>10 Horas de Atualizades</p>
+                        <p>+ 400 aulas</p>
+                        <button type="button" class="efeito-button">Quero Esse</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div>
+                        <i class="fab fa-node-js fa-5x"></i>
+                        <h2>Plano Back-end</h2>
+                        <p>Node</p>
+                        <p>PHP</p>
+                        <p>Ruby</p>
+                        <p>2 Projetos</p>
+                        <p>+ 200 aulas</p>
+                        <button type="button" class="efeito-button">Quero Esse</button>
+                    </div>
+                </div>
 
 
+            </div>
+        </div>
+    </section>
+
+    <section id="sessao-form">
+        <div class="cont">
+            <form method="POST">
+                <label for="name">Nome</label>
+                <input type="text" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="_replyto">
+
+                <button type="submit" value="Send">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="cont">
+            <div class="grid-footer">
+                <!-- Logo -->
+                <a href="index.html">
+                    <img class="logo" src="img/logo-branca.png">
+                </a>
+
+                <!-- Navbar Footer -->
+                <ul>
+                    <li>
+                        <a href="#" class="nome" data-text="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nome" data-text="Cursos">Cursos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nome" data-text="Professores">Professores</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nome" data-text="Contatos">Contatos</a>
+                    </li>
+                </ul>
+                <!-- /Navbar Footer -->
+
+                <!-- Social -->
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook fa-3x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-3x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in fa-3x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
