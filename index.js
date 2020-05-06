@@ -16,9 +16,9 @@ $(function($) {
             url: "https://formspree.io/mgeneagd",
             method: "POST",
             data: {
-                name: $("#nome").val(""),
-                email: $("#email").val(""),
-                message: $("#message").val("")
+                name: $("#nome").val(),
+                email: $("#email").val(),
+                message: $("#message").val()
             },
             dataType: "json"
         }).done(function() {

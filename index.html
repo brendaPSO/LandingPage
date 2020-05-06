@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Curso Full Stack</title>
 
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 
@@ -45,7 +46,7 @@
             <!-- Navbar -->
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#sessao-inicial">
                         <div class="icon">
                             <i class="fa fa-home fa-lg" aria-hidden="true"></i>
                         </div>
@@ -53,7 +54,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#sessao-planos">
                         <div class="icon">
                             <i class="fa fa-code fa-lg" aria-hidden="true"></i>
                         </div>
@@ -69,7 +70,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#sessao-form">
                         <div class="icon">
                             <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
                         </div>
@@ -154,13 +155,32 @@
     <section id="sessao-form">
         <div class="cont">
             <form method="POST">
-                <label for="name">Nome</label>
-                <input type="text" name="name">
 
-                <label for="email">Email</label>
-                <input type="email" name="_replyto">
+                <div>
+                    <h1>GANHE DESCONTO DE 10%</h1>
+                    <hr/>
+                </div>
 
-                <button type="submit" value="Send">Enviar</button>
+                <div>
+                    <h3>Cadastre-se</h3>
+                </div>
+
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="nome">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="_replyto" id="email">
+                </div>
+
+                <div>
+                    <label for="message">Mensagem</label>
+                    <textarea type="text" name="name" id="message"></textarea>
+                </div>
+
+                <button type="submit" class="efeito-button" value="Send">Enviar</button>
             </form>
         </div>
     </section>
